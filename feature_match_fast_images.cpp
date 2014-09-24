@@ -25,8 +25,8 @@ int main(  )
 {
   // Apply SURF method to match images by camera in motion
 
-  Mat img_object = imread("/home/hailong/Pictures/fly1.png");//first input image location
-  Mat img_scene = imread( "/home/hailong/Pictures/fly2.png" );//second input image location
+  Mat img_object = imread("/home/hailong/Pictures/house_contour.png");//first input image location
+  Mat img_scene = imread( "/home/hailong/Pictures/house_simulation_contour.png" );//second input image location
 
   if( !img_object.data || !img_scene.data )
   { std::cout<< " --(!) Error reading images " << std::endl; return -1; }
